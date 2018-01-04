@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+- inline block lists everything in line
+-list style type
+-margin, padding ------------> (top, bottom, left, right)
+-float: left ---------------> everything floats left
+-clear: both --------> forget everthing and wrap around
+-borded-radius ------> rounded corners
+*/
+/* 
+    Created on : Dec 30, 2017, 3:54:44 PM
+    Author     : uwhaf
+*/
+body,
+html{
+    min-height:100%;
+    
+}
+a:link, a:visited{
+    text-decoration: none;
+    color:white;  
+}
+a:hover, a:active{
+    text-decoration: underline overline;
+    color: yellow;
+}
+
+body{
+    margin: 0;
+    background-image:url(bkg.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:arial;
+    color: white;
+    padding-left: 20px;
+}
+
+header{
+    
+    background: black;
+    color: white;
+    padding: 50px;
+}
+
+P{
+    padding: 0 0 0 20px;
+   
+}
+
+h3{
+    padding: 0 0 0 20px;
+    
+}
+header h1{
+    margin: 0;
+    display: inline;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0 0 0 15px ;
+    display: inline;
+    
+}
+
+nav ul li{
+    background: red;
+    color: white;
+    display: inline-block;  
+   list-style-type: none;
+    padding: 5px 15px; 
+   
+}
+
+nav ul li a{
+    color: white;
+}
+
+.row:after{
+    clear: both;
+}
+
+.col{
+    background: red;
+    border-radius: 5px;
+    color: greenyellow;
+    padding: .5px;
+    float: left;
+    margin: .5%;
+    width: 31%;
+}
+
+footer{
+    clear: both;
+    color: white;
+     text-align: center;
+}
+
+
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    width: 230px;
+        padding: 5px;
+        filter: grayscale(100%);
+        transition: ls;
+}
+
+.gallery img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+.curryimg img{
+    filter: grayscale(100%);
+}
+.curryimg img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+.bazemoreimg img{
+    filter: grayscale(100%);
+}
+.bazemoreimg img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+.dsjimg img{
+    filter: grayscale(100%);
+}
+.dsjimg img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+.mudiayimg img{
+    filter: grayscale(100%);
+}
+.mudiayimg img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+.whiteheadimg img{
+    filter: grayscale(100%);
+}
+.whiteheadimg img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+.millsimg img{
+    filter: grayscale(100%);
+}
+.millsimg img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+.playerimg img{
+    filter: grayscale(100%);
+}
+.playerimg img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
